@@ -94,9 +94,10 @@ To succeed on this deliverable of the assignment, open the VacationPy.ipynb star
     - Northern Hemisphere: Cloudiness (%) vs. Latitude
     - Southern Hemisphere: Cloudiness (%) vs. Latitude
     - Northern Hemisphere: Wind Speed (m/s) vs. Latitude
-    - Southern Hemisphere: Wind Speed (m/s) vs. Latitude
-![This is a scatter plot of Latitude vs. Humidity](./WeatherPy/Fig2.png)
+    - Southern Hemisphere: Wind Speed (m/s) vs. Latitude<br>
     
+    After completing all the required plots and linear regressions, I can analye the relationships between various features and latitudes.<br>
+
 **VacationPy**
 - For the part 2 of this assignment I got to work woth `hvplot` to compute maps.
 - After importing the necessary libraries and modules I also loaded the csv file from WeatherPy which is out `citi_data_df`.
@@ -105,7 +106,7 @@ To succeed on this deliverable of the assignment, open the VacationPy.ipynb star
 - Next I added an empty column to the copy of previous data frame and to create a new dataframe called `hotel_df`
 - With this `hotel_df` I extracted the nearest hotel in each city by looping through out data frame by using Geoapify API and adding the hotel name to `hotel_df`
 - Lastly I computed a map using `hvplot`
-
+- By looking at the maps, we can easily find our preferred hotels.
 
 ## Credits:-
 Ask Bcs helped with debugging the code.
